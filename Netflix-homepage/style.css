@@ -1,0 +1,117 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.left {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+}
+
+.right {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0000008a;
+    font-family: 'Martel Sans', sans-serif;
+    background-image: url(https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4);
+}
+
+.buttons {
+    background-color: #e50914;
+    color: white;
+    border-radius: 3px;
+    height: 28px ;
+    
+}
+.buttons :hover{
+    background-color: rgb(230, 133, 133);
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+}
+.select {
+    width: 120px;
+    margin-right: 37px;
+}
+
+#lang {
+    padding: 10px;
+
+}
+
+.main {
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    min-height: 710px;
+}
+
+.area {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.area h1 {
+    font-size: 60px;
+    word-spacing: 15px;
+    line-height: 75px;
+}
+
+.area h3 {
+    margin-top: -30px;
+    font-size: 27px;
+    font-weight: normal;
+}
+.search {
+    width: 150%;
+    background-color: none;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .box {
+    width: 100%;
+    min-height: 65px;
+  }
+  
+  .try {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e50914;
+    min-height: 70px;
+    width: 70%;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
